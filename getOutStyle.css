@@ -9,6 +9,8 @@ a:visited {color: #FFFFFF; text-decoration: underline;}
 a:hover {color: #FFFFFF; text-decoration: underline;}
 a:active {color: #FFFFFF; text-decoration: underline;}
 
-.roomTd {width: 140px; height: 120px; vertical-align: top;}
+.roomTd {width: 140px; height: 180px; vertical-align: top;}
 
-.roomPeople {color: #00DD00;}
+.roomTitle {margin-bottom: 3px;}
+.roomPeople {color: #00DD00; margin-bottom: 3px;}
+.roomObjects {color: #DDBB00;}

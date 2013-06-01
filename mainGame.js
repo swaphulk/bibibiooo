@@ -95,6 +95,7 @@ var moveFamilyMembers = function() {
 
 var drawHouse = function() {
   var peopleInRoom = '';
+  var objectsInRoom = '';
   for (var i = 0; i < house.rooms.length; i++) { 
     peopleInRoom = '';
     for (var peep = 0; peep < family.members.length; peep++) {
@@ -105,9 +106,18 @@ var drawHouse = function() {
         peopleInRoom += family.members[peep].name;
       }
     }
-
     $('#roomTd' + i + ' div.roomPeople').html(peopleInRoom);
+
+    objectsInRoom = '';
+    for (var objs = 0; objs < house.rooms[i].contents.objects.length; objs++) { 
+      if (objectsInRoom != '') {
+        objectsInRoom += '<br>';
+      }
+      objectsInRoom += house.rooms[i].contents.objects[objs];
+    }
+    $('#roomTd' + i + ' div.roomObjects').html(objectsInRoom);
   }
+
 };
 
 
