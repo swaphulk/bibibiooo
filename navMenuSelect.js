@@ -20,7 +20,7 @@ $( document ).ready(function() {
         break;
       case 'achievementsMenuLink':
         $('.mainDiv').hide();
-        $('#acheivementsDiv').show();
+        $('#achievementsDiv').show();
         break;
     }
     return;

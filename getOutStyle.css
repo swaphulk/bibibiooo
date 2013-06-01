@@ -1,9 +1,12 @@
-#navMenuDiv {height: 50px; background-color: #333333; postion: fixed; top: 0; left: 0; text-align: center;}
+#navMenuDiv {height: 50px; background-color: #333333; postion: fixed; top: 0; left: 0; text-align: center; padding-top: 1px; margin-bottom: 10px;}
 #centerP {text-align: center;}
 a.menuLink {}
-body {background-color: black; color: white;}
+body {background-color: black; color: white; font-family: sans-serif;}
 
 a:link {color:#FFFFFF;text-decoration:underline;}
 a:visited {color:#FFFFFF;text-decoration:underline;}
 a:hover {color:#FFFFFF;text-decoration:underline;}
 a:active {color:#FFFFFF;text-decoration:underline;}
+
+.roomTd {width: 140px; height: 120px; vertical-align: top;}
+
