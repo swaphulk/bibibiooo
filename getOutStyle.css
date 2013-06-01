@@ -1,0 +1,9 @@
+#navMenuDiv {height: 50px; background-color: #333333; postion: fixed; top: 0; left: 0; text-align: center;}
+#centerP {text-align: center;}
+a.menuLink {}
+body {background-color: black; color: white;}
+
+a:link {color:#FFFFFF;text-decoration:underline;}
+a:visited {color:#FFFFFF;text-decoration:underline;}
+a:hover {color:#FFFFFF;text-decoration:underline;}
+a:active {color:#FFFFFF;text-decoration:underline;}
