@@ -22,6 +22,11 @@ $( document ).ready(function() {
         $('.mainDiv').hide();
         $('#achievementsDiv').show();
         break;
+      case 'powersMenuLink':
+        $('.mainDiv').hide();
+        $('#powersDiv').show();
+        break;
+
     }
     return;
   });
